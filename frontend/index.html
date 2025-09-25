@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Multi-Agent Game Tester (POC)</title>
+  <style>
+    body { font-family: system-ui, Arial; max-width: 900px; margin: 32px; }
+    button { margin: 8px; padding: 10px 16px; }
+    pre { background:#f3f3f3; padding:10px; overflow:auto; max-height:400px; }
+  </style>
+</head>
+<body>
+  <h1>Multi-Agent Game Tester — POC</h1>
+  <label>Target URL: <input id="target" value="https://play.ezygamers.com/"></label>
+  <div>
+    <button onclick="generatePlan()">Generate Plan (20+)</button>
+    <button onclick="rankPlan()">Rank Plan</button>
+    <button onclick="executeTests()">Execute Top 10</button>
+    <button onclick="executeQuick()">Quick Demo (Top 3)</button>
+    <button onclick="loadReport()">Load Report</button>
+  </div>
+  <h3>Output</h3>
+  <div id="out"></div>
+<script>
+  const base = '/';
+
+  function log(msg){
+    const el = document.getElementById('out');
+    const p = document.createElement('pre');
+    p.textContent = typeof msg === 'string' ? msg : JSON.stringify(msg, null, 2);
+    el.prepend(p);
+  }
+
+  async function generatePlan(){
+    const url = document.getElementById('target').value;
+    log('Generating candidates...');
+    const resp = await fetch('/generate_plan', {
+      method: 'POST',
+      headers: {'Content-Type':'application/json'},
+      body: JSON.stringify({target_url: url})
+    });
+    const j = await resp.json();
+    log(j);
+  }
+
+  async function rankPlan(){
+    log('Ranking candidates...');
+    const resp = await fetch('/rank_plan', {method:'POST'});
+    const j = await resp.json();
+    log(j.ranked.slice(0,10));
+  }
+
+  async function executeTests(){
+    log('Executing top 10 tests (this may take a couple minutes)...');
+    const resp = await fetch('/execute_tests', {
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body: JSON.stringify({top_k: 10, quick: false})
+    });
+    const j = await resp.json();
+    log(`Test run complete in ${j.summary.elapsed_seconds} seconds.`);
+    log(j.tests.map(t => ({id:t.id, verdict:t.verdict})));
+  }
+
+  async function executeQuick(){
+    log('Executing quick demo (top 3)...');
+    const resp = await fetch('/execute_tests', {
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body: JSON.stringify({top_k: 10, quick: true})
+    });
+    const j = await resp.json();
+    log(`Quick demo complete in ${j.summary.elapsed_seconds} seconds.`);
+    log(j.tests.map(t => ({id:t.id, verdict:t.verdict})));
+  }
+
+  async function loadReport(){
+    const resp = await fetch('/report');
+    if (resp.status !== 200){
+      log(await resp.json());
+      return;
+    }
+    const blob = await resp.blob();
+    const text = await blob.text();
+    const report = JSON.parse(text);
+    log(`Report loaded. Elapsed time: ${report.summary.elapsed_seconds} seconds.`);
+    log(report);
+  }
+</script>
+</body>
+</html>
