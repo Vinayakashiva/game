@@ -1,9 +1,9 @@
 {
   "candidates": [
     {
-      "id": "020f0923",
-      "title": "Auto test (difficulty=0.73)",
-      "difficulty": 0.7342145047204832,
+      "id": "94f510e6",
+      "title": "Auto test (difficulty=0.93)",
+      "difficulty": 0.9266065859451529,
       "steps": [
         {
           "action": "goto",
@@ -21,18 +21,13 @@
         {
           "action": "click_if",
           "params": {
-            "selector": ".start-button"
+            "selector": ".play-btn"
           }
         },
         {
           "action": "type_random_number",
           "params": {
-            "length": 1
-          }
-        },
-        {
-          "action": "type_random_number",
-          "params": {
+            "selector": "input[type='text'], input[type='number']",
             "length": 1
           }
         },
@@ -49,9 +44,188 @@
       ]
     },
     {
-      "id": "e57756ed",
+      "id": "52bd02b8",
+      "title": "Auto test (difficulty=0.41)",
+      "difficulty": 0.4112108024092628,
+      "steps": [
+        {
+          "action": "goto",
+          "params": {
+            "url": "https://play.ezygamers.com/"
+          }
+        },
+        {
+          "action": "wait_for",
+          "params": {
+            "selector": "body",
+            "timeout": 2000
+          }
+        },
+        {
+          "action": "click_if",
+          "params": {
+            "selector": ".play-btn"
+          }
+        },
+        {
+          "action": "type_random_number",
+          "params": {
+            "selector": "input[type='text'], input[type='number']",
+            "length": 2
+          }
+        },
+        {
+          "action": "submit",
+          "params": {}
+        },
+        {
+          "action": "check_selector",
+          "params": {
+            "selector": ".score, .result, #result"
+          }
+        }
+      ]
+    },
+    {
+      "id": "21307bee",
+      "title": "Auto test (difficulty=0.26)",
+      "difficulty": 0.2598949457685781,
+      "steps": [
+        {
+          "action": "goto",
+          "params": {
+            "url": "https://play.ezygamers.com/"
+          }
+        },
+        {
+          "action": "wait_for",
+          "params": {
+            "selector": "body",
+            "timeout": 2000
+          }
+        },
+        {
+          "action": "click_if",
+          "params": {
+            "selector": ".play-btn"
+          }
+        },
+        {
+          "action": "type_random_number",
+          "params": {
+            "selector": "input[type='text'], input[type='number']",
+            "length": 2
+          }
+        },
+        {
+          "action": "type_random_number",
+          "params": {
+            "selector": "input[type='text'], input[type='number']",
+            "length": 1
+          }
+        },
+        {
+          "action": "submit",
+          "params": {}
+        },
+        {
+          "action": "check_selector",
+          "params": {
+            "selector": ".score, .result, #result"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3cc17a11",
+      "title": "Auto test (difficulty=0.76)",
+      "difficulty": 0.763872265381885,
+      "steps": [
+        {
+          "action": "goto",
+          "params": {
+            "url": "https://play.ezygamers.com/"
+          }
+        },
+        {
+          "action": "wait_for",
+          "params": {
+            "selector": "body",
+            "timeout": 2000
+          }
+        },
+        {
+          "action": "click_if",
+          "params": {
+            "selector": ".play-btn"
+          }
+        },
+        {
+          "action": "type_random_number",
+          "params": {
+            "selector": "input[type='text'], input[type='number']",
+            "length": 1
+          }
+        },
+        {
+          "action": "submit",
+          "params": {}
+        },
+        {
+          "action": "check_selector",
+          "params": {
+            "selector": ".score, .result, #result"
+          }
+        }
+      ]
+    },
+    {
+      "id": "768f12f6",
+      "title": "Auto test (difficulty=0.08)",
+      "difficulty": 0.07671339742894523,
+      "steps": [
+        {
+          "action": "goto",
+          "params": {
+            "url": "https://play.ezygamers.com/"
+          }
+        },
+        {
+          "action": "wait_for",
+          "params": {
+            "selector": "body",
+            "timeout": 2000
+          }
+        },
+        {
+          "action": "click_if",
+          "params": {
+            "selector": ".play-btn"
+          }
+        },
+        {
+          "action": "type_random_number",
+          "params": {
+            "selector": "input[type='text'], input[type='number']",
+            "length": 2
+          }
+        },
+        {
+          "action": "submit",
+          "params": {}
+        },
+        {
+          "action": "check_selector",
+          "params": {
+            "selector": ".score, .result, #result"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3aa14e6e",
       "title": "Auto test (difficulty=0.70)",
-      "difficulty": 0.6974528189163594,
+      "difficulty": 0.6995170095029385,
       "steps": [
         {
           "action": "goto",
@@ -69,108 +243,20 @@
         {
           "action": "click_if",
           "params": {
-            "selector": ".start-button"
+            "selector": ".play-btn"
           }
         },
         {
           "action": "type_random_number",
           "params": {
+            "selector": "input[type='text'], input[type='number']",
             "length": 2
           }
         },
         {
           "action": "type_random_number",
           "params": {
-            "length": 1
-          }
-        },
-        {
-          "action": "submit",
-          "params": {}
-        },
-        {
-          "action": "check_selector",
-          "params": {
-            "selector": ".score, .result, #result"
-          }
-        }
-      ]
-    },
-    {
-      "id": "8fc3a18d",
-      "title": "Auto test (difficulty=0.12)",
-      "difficulty": 0.11842711417005025,
-      "steps": [
-        {
-          "action": "goto",
-          "params": {
-            "url": "https://play.ezygamers.com/"
-          }
-        },
-        {
-          "action": "wait_for",
-          "params": {
-            "selector": "body",
-            "timeout": 2000
-          }
-        },
-        {
-          "action": "click_if",
-          "params": {
-            "selector": ".start-button"
-          }
-        },
-        {
-          "action": "type_random_number",
-          "params": {
-            "length": 1
-          }
-        },
-        {
-          "action": "submit",
-          "params": {}
-        },
-        {
-          "action": "check_selector",
-          "params": {
-            "selector": ".score, .result, #result"
-          }
-        }
-      ]
-    },
-    {
-      "id": "41bd1fd7",
-      "title": "Auto test (difficulty=0.98)",
-      "difficulty": 0.9795752987874948,
-      "steps": [
-        {
-          "action": "goto",
-          "params": {
-            "url": "https://play.ezygamers.com/"
-          }
-        },
-        {
-          "action": "wait_for",
-          "params": {
-            "selector": "body",
-            "timeout": 2000
-          }
-        },
-        {
-          "action": "click_if",
-          "params": {
-            "selector": ".start-button"
-          }
-        },
-        {
-          "action": "type_random_number",
-          "params": {
-            "length": 2
-          }
-        },
-        {
-          "action": "type_random_number",
-          "params": {
+            "selector": "input[type='text'], input[type='number']",
             "length": 2
           }
         },
@@ -187,9 +273,9 @@
       ]
     },
     {
-      "id": "a3c6e9c7",
+      "id": "ada109fe",
       "title": "Auto test (difficulty=0.47)",
-      "difficulty": 0.46821842122511226,
+      "difficulty": 0.468240487223348,
       "steps": [
         {
           "action": "goto",
@@ -207,18 +293,163 @@
         {
           "action": "click_if",
           "params": {
-            "selector": ".start-button"
+            "selector": ".play-btn"
           }
         },
         {
           "action": "type_random_number",
           "params": {
+            "selector": "input[type='text'], input[type='number']",
+            "length": 2
+          }
+        },
+        {
+          "action": "type_random_number",
+          "params": {
+            "selector": "input[type='text'], input[type='number']",
+            "length": 1
+          }
+        },
+        {
+          "action": "submit",
+          "params": {}
+        },
+        {
+          "action": "check_selector",
+          "params": {
+            "selector": ".score, .result, #result"
+          }
+        }
+      ]
+    },
+    {
+      "id": "32c251e5",
+      "title": "Auto test (difficulty=0.10)",
+      "difficulty": 0.10134106857915903,
+      "steps": [
+        {
+          "action": "goto",
+          "params": {
+            "url": "https://play.ezygamers.com/"
+          }
+        },
+        {
+          "action": "wait_for",
+          "params": {
+            "selector": "body",
+            "timeout": 2000
+          }
+        },
+        {
+          "action": "click_if",
+          "params": {
+            "selector": ".play-btn"
+          }
+        },
+        {
+          "action": "type_random_number",
+          "params": {
+            "selector": "input[type='text'], input[type='number']",
             "length": 1
           }
         },
         {
           "action": "type_random_number",
           "params": {
+            "selector": "input[type='text'], input[type='number']",
+            "length": 1
+          }
+        },
+        {
+          "action": "submit",
+          "params": {}
+        },
+        {
+          "action": "check_selector",
+          "params": {
+            "selector": ".score, .result, #result"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8d9df076",
+      "title": "Auto test (difficulty=0.14)",
+      "difficulty": 0.1417806528796437,
+      "steps": [
+        {
+          "action": "goto",
+          "params": {
+            "url": "https://play.ezygamers.com/"
+          }
+        },
+        {
+          "action": "wait_for",
+          "params": {
+            "selector": "body",
+            "timeout": 2000
+          }
+        },
+        {
+          "action": "click_if",
+          "params": {
+            "selector": ".play-btn"
+          }
+        },
+        {
+          "action": "type_random_number",
+          "params": {
+            "selector": "input[type='text'], input[type='number']",
+            "length": 2
+          }
+        },
+        {
+          "action": "type_random_number",
+          "params": {
+            "selector": "input[type='text'], input[type='number']",
+            "length": 1
+          }
+        },
+        {
+          "action": "submit",
+          "params": {}
+        },
+        {
+          "action": "check_selector",
+          "params": {
+            "selector": ".score, .result, #result"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c0a199db",
+      "title": "Auto test (difficulty=0.79)",
+      "difficulty": 0.792038185006649,
+      "steps": [
+        {
+          "action": "goto",
+          "params": {
+            "url": "https://play.ezygamers.com/"
+          }
+        },
+        {
+          "action": "wait_for",
+          "params": {
+            "selector": "body",
+            "timeout": 2000
+          }
+        },
+        {
+          "action": "click_if",
+          "params": {
+            "selector": ".play-btn"
+          }
+        },
+        {
+          "action": "type_random_number",
+          "params": {
+            "selector": "input[type='text'], input[type='number']",
             "length": 2
           }
         },
@@ -235,9 +466,238 @@
       ]
     },
     {
-      "id": "91d7eb93",
+      "id": "ca404200",
+      "title": "Auto test (difficulty=0.68)",
+      "difficulty": 0.678242749281442,
+      "steps": [
+        {
+          "action": "goto",
+          "params": {
+            "url": "https://play.ezygamers.com/"
+          }
+        },
+        {
+          "action": "wait_for",
+          "params": {
+            "selector": "body",
+            "timeout": 2000
+          }
+        },
+        {
+          "action": "click_if",
+          "params": {
+            "selector": ".play-btn"
+          }
+        },
+        {
+          "action": "type_random_number",
+          "params": {
+            "selector": "input[type='text'], input[type='number']",
+            "length": 1
+          }
+        },
+        {
+          "action": "submit",
+          "params": {}
+        },
+        {
+          "action": "check_selector",
+          "params": {
+            "selector": ".score, .result, #result"
+          }
+        }
+      ]
+    },
+    {
+      "id": "274cc9bd",
+      "title": "Auto test (difficulty=0.54)",
+      "difficulty": 0.5360358655503039,
+      "steps": [
+        {
+          "action": "goto",
+          "params": {
+            "url": "https://play.ezygamers.com/"
+          }
+        },
+        {
+          "action": "wait_for",
+          "params": {
+            "selector": "body",
+            "timeout": 2000
+          }
+        },
+        {
+          "action": "click_if",
+          "params": {
+            "selector": ".play-btn"
+          }
+        },
+        {
+          "action": "type_random_number",
+          "params": {
+            "selector": "input[type='text'], input[type='number']",
+            "length": 2
+          }
+        },
+        {
+          "action": "submit",
+          "params": {}
+        },
+        {
+          "action": "check_selector",
+          "params": {
+            "selector": ".score, .result, #result"
+          }
+        }
+      ]
+    },
+    {
+      "id": "997d6c30",
+      "title": "Auto test (difficulty=0.28)",
+      "difficulty": 0.28288441288699184,
+      "steps": [
+        {
+          "action": "goto",
+          "params": {
+            "url": "https://play.ezygamers.com/"
+          }
+        },
+        {
+          "action": "wait_for",
+          "params": {
+            "selector": "body",
+            "timeout": 2000
+          }
+        },
+        {
+          "action": "click_if",
+          "params": {
+            "selector": ".play-btn"
+          }
+        },
+        {
+          "action": "type_random_number",
+          "params": {
+            "selector": "input[type='text'], input[type='number']",
+            "length": 2
+          }
+        },
+        {
+          "action": "type_random_number",
+          "params": {
+            "selector": "input[type='text'], input[type='number']",
+            "length": 1
+          }
+        },
+        {
+          "action": "submit",
+          "params": {}
+        },
+        {
+          "action": "check_selector",
+          "params": {
+            "selector": ".score, .result, #result"
+          }
+        }
+      ]
+    },
+    {
+      "id": "89aa7f0a",
+      "title": "Auto test (difficulty=0.64)",
+      "difficulty": 0.6359739038651425,
+      "steps": [
+        {
+          "action": "goto",
+          "params": {
+            "url": "https://play.ezygamers.com/"
+          }
+        },
+        {
+          "action": "wait_for",
+          "params": {
+            "selector": "body",
+            "timeout": 2000
+          }
+        },
+        {
+          "action": "click_if",
+          "params": {
+            "selector": ".play-btn"
+          }
+        },
+        {
+          "action": "type_random_number",
+          "params": {
+            "selector": "input[type='text'], input[type='number']",
+            "length": 1
+          }
+        },
+        {
+          "action": "type_random_number",
+          "params": {
+            "selector": "input[type='text'], input[type='number']",
+            "length": 2
+          }
+        },
+        {
+          "action": "submit",
+          "params": {}
+        },
+        {
+          "action": "check_selector",
+          "params": {
+            "selector": ".score, .result, #result"
+          }
+        }
+      ]
+    },
+    {
+      "id": "f7d3a1fd",
+      "title": "Auto test (difficulty=0.39)",
+      "difficulty": 0.39409097033469853,
+      "steps": [
+        {
+          "action": "goto",
+          "params": {
+            "url": "https://play.ezygamers.com/"
+          }
+        },
+        {
+          "action": "wait_for",
+          "params": {
+            "selector": "body",
+            "timeout": 2000
+          }
+        },
+        {
+          "action": "click_if",
+          "params": {
+            "selector": ".play-btn"
+          }
+        },
+        {
+          "action": "type_random_number",
+          "params": {
+            "selector": "input[type='text'], input[type='number']",
+            "length": 1
+          }
+        },
+        {
+          "action": "submit",
+          "params": {}
+        },
+        {
+          "action": "check_selector",
+          "params": {
+            "selector": ".score, .result, #result"
+          }
+        }
+      ]
+    },
+    {
+      "id": "abc38b78",
       "title": "Auto test (difficulty=0.24)",
-      "difficulty": 0.2350450109245209,
+      "difficulty": 0.237320422181301,
       "steps": [
         {
           "action": "goto",
@@ -255,60 +715,20 @@
         {
           "action": "click_if",
           "params": {
-            "selector": ".start-button"
+            "selector": ".play-btn"
           }
         },
         {
           "action": "type_random_number",
           "params": {
-            "length": 1
+            "selector": "input[type='text'], input[type='number']",
+            "length": 2
           }
         },
         {
           "action": "type_random_number",
           "params": {
-            "length": 1
-          }
-        },
-        {
-          "action": "submit",
-          "params": {}
-        },
-        {
-          "action": "check_selector",
-          "params": {
-            "selector": ".score, .result, #result"
-          }
-        }
-      ]
-    },
-    {
-      "id": "9899638a",
-      "title": "Auto test (difficulty=0.43)",
-      "difficulty": 0.42697953282804024,
-      "steps": [
-        {
-          "action": "goto",
-          "params": {
-            "url": "https://play.ezygamers.com/"
-          }
-        },
-        {
-          "action": "wait_for",
-          "params": {
-            "selector": "body",
-            "timeout": 2000
-          }
-        },
-        {
-          "action": "click_if",
-          "params": {
-            "selector": ".start-button"
-          }
-        },
-        {
-          "action": "type_random_number",
-          "params": {
+            "selector": "input[type='text'], input[type='number']",
             "length": 2
           }
         },
@@ -325,9 +745,9 @@
       ]
     },
     {
-      "id": "db676997",
-      "title": "Auto test (difficulty=0.32)",
-      "difficulty": 0.31521901744110925,
+      "id": "56af0b44",
+      "title": "Auto test (difficulty=0.83)",
+      "difficulty": 0.8290495664754511,
       "steps": [
         {
           "action": "goto",
@@ -345,18 +765,20 @@
         {
           "action": "click_if",
           "params": {
-            "selector": ".start-button"
+            "selector": ".play-btn"
           }
         },
         {
           "action": "type_random_number",
           "params": {
+            "selector": "input[type='text'], input[type='number']",
             "length": 2
           }
         },
         {
           "action": "type_random_number",
           "params": {
+            "selector": "input[type='text'], input[type='number']",
             "length": 1
           }
         },
@@ -373,363 +795,9 @@
       ]
     },
     {
-      "id": "40fd3a9e",
-      "title": "Auto test (difficulty=0.16)",
-      "difficulty": 0.163682206016606,
-      "steps": [
-        {
-          "action": "goto",
-          "params": {
-            "url": "https://play.ezygamers.com/"
-          }
-        },
-        {
-          "action": "wait_for",
-          "params": {
-            "selector": "body",
-            "timeout": 2000
-          }
-        },
-        {
-          "action": "click_if",
-          "params": {
-            "selector": ".start-button"
-          }
-        },
-        {
-          "action": "type_random_number",
-          "params": {
-            "length": 2
-          }
-        },
-        {
-          "action": "submit",
-          "params": {}
-        },
-        {
-          "action": "check_selector",
-          "params": {
-            "selector": ".score, .result, #result"
-          }
-        }
-      ]
-    },
-    {
-      "id": "c4e582b7",
-      "title": "Auto test (difficulty=0.00)",
-      "difficulty": 4.1429282669813716e-05,
-      "steps": [
-        {
-          "action": "goto",
-          "params": {
-            "url": "https://play.ezygamers.com/"
-          }
-        },
-        {
-          "action": "wait_for",
-          "params": {
-            "selector": "body",
-            "timeout": 2000
-          }
-        },
-        {
-          "action": "click_if",
-          "params": {
-            "selector": ".start-button"
-          }
-        },
-        {
-          "action": "type_random_number",
-          "params": {
-            "length": 1
-          }
-        },
-        {
-          "action": "submit",
-          "params": {}
-        },
-        {
-          "action": "check_selector",
-          "params": {
-            "selector": ".score, .result, #result"
-          }
-        }
-      ]
-    },
-    {
-      "id": "3ffb3b93",
-      "title": "Auto test (difficulty=0.29)",
-      "difficulty": 0.2932256742050472,
-      "steps": [
-        {
-          "action": "goto",
-          "params": {
-            "url": "https://play.ezygamers.com/"
-          }
-        },
-        {
-          "action": "wait_for",
-          "params": {
-            "selector": "body",
-            "timeout": 2000
-          }
-        },
-        {
-          "action": "click_if",
-          "params": {
-            "selector": ".start-button"
-          }
-        },
-        {
-          "action": "type_random_number",
-          "params": {
-            "length": 2
-          }
-        },
-        {
-          "action": "submit",
-          "params": {}
-        },
-        {
-          "action": "check_selector",
-          "params": {
-            "selector": ".score, .result, #result"
-          }
-        }
-      ]
-    },
-    {
-      "id": "6a715f33",
-      "title": "Auto test (difficulty=0.52)",
-      "difficulty": 0.5240624291364221,
-      "steps": [
-        {
-          "action": "goto",
-          "params": {
-            "url": "https://play.ezygamers.com/"
-          }
-        },
-        {
-          "action": "wait_for",
-          "params": {
-            "selector": "body",
-            "timeout": 2000
-          }
-        },
-        {
-          "action": "click_if",
-          "params": {
-            "selector": ".start-button"
-          }
-        },
-        {
-          "action": "type_random_number",
-          "params": {
-            "length": 2
-          }
-        },
-        {
-          "action": "type_random_number",
-          "params": {
-            "length": 2
-          }
-        },
-        {
-          "action": "submit",
-          "params": {}
-        },
-        {
-          "action": "check_selector",
-          "params": {
-            "selector": ".score, .result, #result"
-          }
-        }
-      ]
-    },
-    {
-      "id": "48cffb05",
-      "title": "Auto test (difficulty=0.81)",
-      "difficulty": 0.8052944427832945,
-      "steps": [
-        {
-          "action": "goto",
-          "params": {
-            "url": "https://play.ezygamers.com/"
-          }
-        },
-        {
-          "action": "wait_for",
-          "params": {
-            "selector": "body",
-            "timeout": 2000
-          }
-        },
-        {
-          "action": "click_if",
-          "params": {
-            "selector": ".start-button"
-          }
-        },
-        {
-          "action": "type_random_number",
-          "params": {
-            "length": 2
-          }
-        },
-        {
-          "action": "type_random_number",
-          "params": {
-            "length": 1
-          }
-        },
-        {
-          "action": "submit",
-          "params": {}
-        },
-        {
-          "action": "check_selector",
-          "params": {
-            "selector": ".score, .result, #result"
-          }
-        }
-      ]
-    },
-    {
-      "id": "d072563e",
-      "title": "Auto test (difficulty=0.50)",
-      "difficulty": 0.5042718029045509,
-      "steps": [
-        {
-          "action": "goto",
-          "params": {
-            "url": "https://play.ezygamers.com/"
-          }
-        },
-        {
-          "action": "wait_for",
-          "params": {
-            "selector": "body",
-            "timeout": 2000
-          }
-        },
-        {
-          "action": "click_if",
-          "params": {
-            "selector": ".start-button"
-          }
-        },
-        {
-          "action": "type_random_number",
-          "params": {
-            "length": 1
-          }
-        },
-        {
-          "action": "submit",
-          "params": {}
-        },
-        {
-          "action": "check_selector",
-          "params": {
-            "selector": ".score, .result, #result"
-          }
-        }
-      ]
-    },
-    {
-      "id": "a9baeaf5",
-      "title": "Auto test (difficulty=0.42)",
-      "difficulty": 0.4249816203101979,
-      "steps": [
-        {
-          "action": "goto",
-          "params": {
-            "url": "https://play.ezygamers.com/"
-          }
-        },
-        {
-          "action": "wait_for",
-          "params": {
-            "selector": "body",
-            "timeout": 2000
-          }
-        },
-        {
-          "action": "click_if",
-          "params": {
-            "selector": ".start-button"
-          }
-        },
-        {
-          "action": "type_random_number",
-          "params": {
-            "length": 1
-          }
-        },
-        {
-          "action": "submit",
-          "params": {}
-        },
-        {
-          "action": "check_selector",
-          "params": {
-            "selector": ".score, .result, #result"
-          }
-        }
-      ]
-    },
-    {
-      "id": "71ad2a4b",
-      "title": "Auto test (difficulty=0.02)",
-      "difficulty": 0.022840922617070047,
-      "steps": [
-        {
-          "action": "goto",
-          "params": {
-            "url": "https://play.ezygamers.com/"
-          }
-        },
-        {
-          "action": "wait_for",
-          "params": {
-            "selector": "body",
-            "timeout": 2000
-          }
-        },
-        {
-          "action": "click_if",
-          "params": {
-            "selector": ".start-button"
-          }
-        },
-        {
-          "action": "type_random_number",
-          "params": {
-            "length": 1
-          }
-        },
-        {
-          "action": "type_random_number",
-          "params": {
-            "length": 2
-          }
-        },
-        {
-          "action": "submit",
-          "params": {}
-        },
-        {
-          "action": "check_selector",
-          "params": {
-            "selector": ".score, .result, #result"
-          }
-        }
-      ]
-    },
-    {
-      "id": "e809a53f",
+      "id": "0d9a36cf",
       "title": "Auto test (difficulty=0.73)",
-      "difficulty": 0.7322464876380079,
+      "difficulty": 0.7320435170011389,
       "steps": [
         {
           "action": "goto",
@@ -747,22 +815,60 @@
         {
           "action": "click_if",
           "params": {
-            "selector": ".start-button"
+            "selector": ".play-btn"
           }
         },
         {
           "action": "type_random_number",
           "params": {
+            "selector": "input[type='text'], input[type='number']",
+            "length": 1
+          }
+        },
+        {
+          "action": "submit",
+          "params": {}
+        },
+        {
+          "action": "check_selector",
+          "params": {
+            "selector": ".score, .result, #result"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2f221aa9",
+      "title": "Auto test (difficulty=0.93)",
+      "difficulty": 0.9265455823071437,
+      "steps": [
+        {
+          "action": "goto",
+          "params": {
+            "url": "https://play.ezygamers.com/"
+          }
+        },
+        {
+          "action": "wait_for",
+          "params": {
+            "selector": "body",
+            "timeout": 2000
+          }
+        },
+        {
+          "action": "click_if",
+          "params": {
+            "selector": ".play-btn"
+          }
+        },
+        {
+          "action": "type_random_number",
+          "params": {
+            "selector": "input[type='text'], input[type='number']",
             "length": 2
           }
         },
         {
-          "action": "type_random_number",
-          "params": {
-            "length": 1
-          }
-        },
-        {
           "action": "submit",
           "params": {}
         },
@@ -775,9 +881,9 @@
       ]
     },
     {
-      "id": "79f59061",
-      "title": "Auto test (difficulty=0.81)",
-      "difficulty": 0.8092760046211618,
+      "id": "1f9c6680",
+      "title": "Auto test (difficulty=0.41)",
+      "difficulty": 0.4075754371100022,
       "steps": [
         {
           "action": "goto",
@@ -795,18 +901,13 @@
         {
           "action": "click_if",
           "params": {
-            "selector": ".start-button"
+            "selector": ".play-btn"
           }
         },
         {
           "action": "type_random_number",
           "params": {
-            "length": 1
-          }
-        },
-        {
-          "action": "type_random_number",
-          "params": {
+            "selector": "input[type='text'], input[type='number']",
             "length": 1
           }
         },
@@ -823,9 +924,9 @@
       ]
     },
     {
-      "id": "ba65fdc9",
+      "id": "169cba7e",
       "title": "Auto test (difficulty=0.17)",
-      "difficulty": 0.1662293677433313,
+      "difficulty": 0.1684592214865671,
       "steps": [
         {
           "action": "goto",
@@ -843,12 +944,13 @@
         {
           "action": "click_if",
           "params": {
-            "selector": ".start-button"
+            "selector": ".play-btn"
           }
         },
         {
           "action": "type_random_number",
           "params": {
+            "selector": "input[type='text'], input[type='number']",
             "length": 2
           }
         },
@@ -865,9 +967,9 @@
       ]
     },
     {
-      "id": "69ae6188",
-      "title": "Auto test (difficulty=0.81)",
-      "difficulty": 0.8074779129262931,
+      "id": "93e31d7e",
+      "title": "Auto test (difficulty=0.60)",
+      "difficulty": 0.5986055812619944,
       "steps": [
         {
           "action": "goto",
@@ -885,150 +987,20 @@
         {
           "action": "click_if",
           "params": {
-            "selector": ".start-button"
+            "selector": ".play-btn"
           }
         },
         {
           "action": "type_random_number",
           "params": {
-            "length": 1
-          }
-        },
-        {
-          "action": "submit",
-          "params": {}
-        },
-        {
-          "action": "check_selector",
-          "params": {
-            "selector": ".score, .result, #result"
-          }
-        }
-      ]
-    },
-    {
-      "id": "68177513",
-      "title": "Auto test (difficulty=0.58)",
-      "difficulty": 0.5754138671052151,
-      "steps": [
-        {
-          "action": "goto",
-          "params": {
-            "url": "https://play.ezygamers.com/"
-          }
-        },
-        {
-          "action": "wait_for",
-          "params": {
-            "selector": "body",
-            "timeout": 2000
-          }
-        },
-        {
-          "action": "click_if",
-          "params": {
-            "selector": ".start-button"
-          }
-        },
-        {
-          "action": "type_random_number",
-          "params": {
+            "selector": "input[type='text'], input[type='number']",
             "length": 1
           }
         },
         {
           "action": "type_random_number",
           "params": {
-            "length": 1
-          }
-        },
-        {
-          "action": "submit",
-          "params": {}
-        },
-        {
-          "action": "check_selector",
-          "params": {
-            "selector": ".score, .result, #result"
-          }
-        }
-      ]
-    },
-    {
-      "id": "7cbaa54f",
-      "title": "Auto test (difficulty=0.11)",
-      "difficulty": 0.10567126881748834,
-      "steps": [
-        {
-          "action": "goto",
-          "params": {
-            "url": "https://play.ezygamers.com/"
-          }
-        },
-        {
-          "action": "wait_for",
-          "params": {
-            "selector": "body",
-            "timeout": 2000
-          }
-        },
-        {
-          "action": "click_if",
-          "params": {
-            "selector": ".start-button"
-          }
-        },
-        {
-          "action": "type_random_number",
-          "params": {
-            "length": 1
-          }
-        },
-        {
-          "action": "type_random_number",
-          "params": {
-            "length": 1
-          }
-        },
-        {
-          "action": "submit",
-          "params": {}
-        },
-        {
-          "action": "check_selector",
-          "params": {
-            "selector": ".score, .result, #result"
-          }
-        }
-      ]
-    },
-    {
-      "id": "d0f3bbae",
-      "title": "Auto test (difficulty=0.23)",
-      "difficulty": 0.22693282453628805,
-      "steps": [
-        {
-          "action": "goto",
-          "params": {
-            "url": "https://play.ezygamers.com/"
-          }
-        },
-        {
-          "action": "wait_for",
-          "params": {
-            "selector": "body",
-            "timeout": 2000
-          }
-        },
-        {
-          "action": "click_if",
-          "params": {
-            "selector": ".start-button"
-          }
-        },
-        {
-          "action": "type_random_number",
-          "params": {
+            "selector": "input[type='text'], input[type='number']",
             "length": 2
           }
         },
@@ -1045,9 +1017,9 @@
       ]
     },
     {
-      "id": "3c1c4f4b",
-      "title": "Auto test (difficulty=0.07)",
-      "difficulty": 0.06637560592013358,
+      "id": "03bc163a",
+      "title": "Auto test (difficulty=0.77)",
+      "difficulty": 0.7705270043305709,
       "steps": [
         {
           "action": "goto",
@@ -1065,12 +1037,63 @@
         {
           "action": "click_if",
           "params": {
-            "selector": ".start-button"
+            "selector": ".play-btn"
           }
         },
         {
           "action": "type_random_number",
           "params": {
+            "selector": "input[type='text'], input[type='number']",
+            "length": 2
+          }
+        },
+        {
+          "action": "submit",
+          "params": {}
+        },
+        {
+          "action": "check_selector",
+          "params": {
+            "selector": ".score, .result, #result"
+          }
+        }
+      ]
+    },
+    {
+      "id": "d7ecef7f",
+      "title": "Auto test (difficulty=0.32)",
+      "difficulty": 0.32109386184628597,
+      "steps": [
+        {
+          "action": "goto",
+          "params": {
+            "url": "https://play.ezygamers.com/"
+          }
+        },
+        {
+          "action": "wait_for",
+          "params": {
+            "selector": "body",
+            "timeout": 2000
+          }
+        },
+        {
+          "action": "click_if",
+          "params": {
+            "selector": ".play-btn"
+          }
+        },
+        {
+          "action": "type_random_number",
+          "params": {
+            "selector": "input[type='text'], input[type='number']",
+            "length": 2
+          }
+        },
+        {
+          "action": "type_random_number",
+          "params": {
+            "selector": "input[type='text'], input[type='number']",
             "length": 1
           }
         },
@@ -1087,7 +1110,7 @@
       ]
     },
     {
-      "id": "f9eec002",
+      "id": "df4cf786",
       "title": "Deterministic open-and-check",
       "difficulty": 0.1,
       "steps": [
