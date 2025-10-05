@@ -13,28 +13,27 @@ class AnalyzerAgent:
 
     def __init__(self):
         self.executor = ExecutorAgent()
-        # Fix for Windows: Ensure the correct event loop policy is set for subprocesses.
-        if sys.platform.startswith("win"):
-            asyncio.set_event_loop_policy(asyncio.WindowsProactorEventLoopPolicy())
-
+        # NOTE: Removed the asyncio fix here to prevent conflicts.
 
     async def analyze(self, test, initial_result):
         # Quick re-run with fewer interactions (simulate repeatability)
-        # Build a reduced test: keep only goto + check_selector if present
+        # Build a reduced test: keep only goto, wait_for, and check_selector
         reduced = {
             "id": test["id"] + "_replay",
             "title": test.get("title", "") + " (replay)",
             "steps": []
         }
         for s in test["steps"]:
-            if s["action"] in ("goto", "check_selector", "wait_for"):
+            # Check for structural steps
+            if s["action"] in ("goto", "wait_for", "check_selector"):
                 reduced["steps"].append(s)
 
         # save temporary artifacts into same artifacts dir
         artifacts_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "..", "artifacts")
+        # Reuse executor's run_test method
         result_replay = await self.executor.run_test(reduced, artifacts_dir)
 
-        # cross-check: compare verdict equality
+        # cross-check: compare verdict equality (pass/fail)
         reproducible = (initial_result["verdict"] == result_replay["verdict"])
         # very simple reproducibility score
         score = 1.0 if reproducible else 0.0
