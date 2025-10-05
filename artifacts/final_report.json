@@ -1,0 +1,290 @@
+{
+  "summary": {
+    "total": 10,
+    "passed": 0,
+    "failed": 10,
+    "elapsed_seconds": 45.28
+  },
+  "tests": [
+    {
+      "id": "b5f6abf1",
+      "verdict": "fail",
+      "artifacts": {
+        "screenshot": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\b5f6abf1\\screenshot.png",
+        "dom": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\b5f6abf1\\dom.html",
+        "console": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\b5f6abf1\\console.json",
+        "network": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\b5f6abf1\\network.json"
+      },
+      "meta": {
+        "title": "Playability/Value Test (Desktop / D=0.97)",
+        "viewport": {
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "analysis": {
+        "replay_verdict": "fail",
+        "reproducible": true,
+        "score": 1.0,
+        "replay_artifacts": {
+          "screenshot": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\b5f6abf1_replay\\screenshot.png",
+          "dom": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\b5f6abf1_replay\\dom.html",
+          "console": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\b5f6abf1_replay\\console.json",
+          "network": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\b5f6abf1_replay\\network.json"
+        }
+      }
+    },
+    {
+      "id": "9434a683",
+      "verdict": "fail",
+      "artifacts": {
+        "screenshot": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\9434a683\\screenshot.png",
+        "dom": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\9434a683\\dom.html",
+        "console": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\9434a683\\console.json",
+        "network": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\9434a683\\network.json"
+      },
+      "meta": {
+        "title": "Playability/Value Test (Tablet / D=0.83)",
+        "viewport": {
+          "width": 768,
+          "height": 1024
+        }
+      },
+      "analysis": {
+        "replay_verdict": "fail",
+        "reproducible": true,
+        "score": 1.0,
+        "replay_artifacts": {
+          "screenshot": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\9434a683_replay\\screenshot.png",
+          "dom": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\9434a683_replay\\dom.html",
+          "console": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\9434a683_replay\\console.json",
+          "network": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\9434a683_replay\\network.json"
+        }
+      }
+    },
+    {
+      "id": "c857bbe0",
+      "verdict": "fail",
+      "artifacts": {
+        "screenshot": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\c857bbe0\\screenshot.png",
+        "dom": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\c857bbe0\\dom.html",
+        "console": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\c857bbe0\\console.json",
+        "network": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\c857bbe0\\network.json"
+      },
+      "meta": {
+        "title": "Playability/Value Test (Tablet / D=0.84)",
+        "viewport": {
+          "width": 768,
+          "height": 1024
+        }
+      },
+      "analysis": {
+        "replay_verdict": "fail",
+        "reproducible": true,
+        "score": 1.0,
+        "replay_artifacts": {
+          "screenshot": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\c857bbe0_replay\\screenshot.png",
+          "dom": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\c857bbe0_replay\\dom.html",
+          "console": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\c857bbe0_replay\\console.json",
+          "network": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\c857bbe0_replay\\network.json"
+        }
+      }
+    },
+    {
+      "id": "f5a801d8",
+      "verdict": "fail",
+      "artifacts": {
+        "screenshot": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\f5a801d8\\screenshot.png",
+        "dom": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\f5a801d8\\dom.html",
+        "console": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\f5a801d8\\console.json",
+        "network": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\f5a801d8\\network.json"
+      },
+      "meta": {
+        "title": "Playability/Value Test (Mobile / D=0.77)",
+        "viewport": {
+          "width": 375,
+          "height": 667
+        }
+      },
+      "analysis": {
+        "replay_verdict": "fail",
+        "reproducible": true,
+        "score": 1.0,
+        "replay_artifacts": {
+          "screenshot": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\f5a801d8_replay\\screenshot.png",
+          "dom": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\f5a801d8_replay\\dom.html",
+          "console": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\f5a801d8_replay\\console.json",
+          "network": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\f5a801d8_replay\\network.json"
+        }
+      }
+    },
+    {
+      "id": "d0ceb43d",
+      "verdict": "fail",
+      "artifacts": {
+        "screenshot": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\d0ceb43d\\screenshot.png",
+        "dom": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\d0ceb43d\\dom.html",
+        "console": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\d0ceb43d\\console.json",
+        "network": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\d0ceb43d\\network.json"
+      },
+      "meta": {
+        "title": "Playability/Value Test (Tablet / D=0.74)",
+        "viewport": {
+          "width": 768,
+          "height": 1024
+        }
+      },
+      "analysis": {
+        "replay_verdict": "fail",
+        "reproducible": true,
+        "score": 1.0,
+        "replay_artifacts": {
+          "screenshot": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\d0ceb43d_replay\\screenshot.png",
+          "dom": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\d0ceb43d_replay\\dom.html",
+          "console": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\d0ceb43d_replay\\console.json",
+          "network": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\d0ceb43d_replay\\network.json"
+        }
+      }
+    },
+    {
+      "id": "2e9f4a05",
+      "verdict": "fail",
+      "artifacts": {
+        "screenshot": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\2e9f4a05\\screenshot.png",
+        "dom": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\2e9f4a05\\dom.html",
+        "console": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\2e9f4a05\\console.json",
+        "network": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\2e9f4a05\\network.json"
+      },
+      "meta": {
+        "title": "Playability/Value Test (Desktop / D=0.70)",
+        "viewport": {
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "analysis": {
+        "replay_verdict": "fail",
+        "reproducible": true,
+        "score": 1.0,
+        "replay_artifacts": {
+          "screenshot": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\2e9f4a05_replay\\screenshot.png",
+          "dom": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\2e9f4a05_replay\\dom.html",
+          "console": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\2e9f4a05_replay\\console.json",
+          "network": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\2e9f4a05_replay\\network.json"
+        }
+      }
+    },
+    {
+      "id": "437e1f69",
+      "verdict": "fail",
+      "artifacts": {
+        "screenshot": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\437e1f69\\screenshot.png",
+        "dom": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\437e1f69\\dom.html",
+        "console": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\437e1f69\\console.json",
+        "network": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\437e1f69\\network.json"
+      },
+      "meta": {
+        "title": "Playability/Value Test (Mobile / D=0.65)",
+        "viewport": {
+          "width": 375,
+          "height": 667
+        }
+      },
+      "analysis": {
+        "replay_verdict": "fail",
+        "reproducible": true,
+        "score": 1.0,
+        "replay_artifacts": {
+          "screenshot": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\437e1f69_replay\\screenshot.png",
+          "dom": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\437e1f69_replay\\dom.html",
+          "console": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\437e1f69_replay\\console.json",
+          "network": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\437e1f69_replay\\network.json"
+        }
+      }
+    },
+    {
+      "id": "4a86d584",
+      "verdict": "fail",
+      "artifacts": {
+        "screenshot": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\4a86d584\\screenshot.png",
+        "dom": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\4a86d584\\dom.html",
+        "console": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\4a86d584\\console.json",
+        "network": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\4a86d584\\network.json"
+      },
+      "meta": {
+        "title": "Playability/Value Test (Tablet / D=0.59)",
+        "viewport": {
+          "width": 768,
+          "height": 1024
+        }
+      },
+      "analysis": {
+        "replay_verdict": "fail",
+        "reproducible": true,
+        "score": 1.0,
+        "replay_artifacts": {
+          "screenshot": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\4a86d584_replay\\screenshot.png",
+          "dom": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\4a86d584_replay\\dom.html",
+          "console": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\4a86d584_replay\\console.json",
+          "network": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\4a86d584_replay\\network.json"
+        }
+      }
+    },
+    {
+      "id": "ddc34d5c",
+      "verdict": "fail",
+      "artifacts": {
+        "screenshot": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\ddc34d5c\\screenshot.png",
+        "dom": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\ddc34d5c\\dom.html",
+        "console": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\ddc34d5c\\console.json",
+        "network": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\ddc34d5c\\network.json"
+      },
+      "meta": {
+        "title": "Playability/Value Test (Large Desktop / D=0.44)",
+        "viewport": {
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      "analysis": {
+        "replay_verdict": "fail",
+        "reproducible": true,
+        "score": 1.0,
+        "replay_artifacts": {
+          "screenshot": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\ddc34d5c_replay\\screenshot.png",
+          "dom": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\ddc34d5c_replay\\dom.html",
+          "console": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\ddc34d5c_replay\\console.json",
+          "network": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\ddc34d5c_replay\\network.json"
+        }
+      }
+    },
+    {
+      "id": "41c8b437",
+      "verdict": "fail",
+      "artifacts": {
+        "screenshot": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\41c8b437\\screenshot.png",
+        "dom": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\41c8b437\\dom.html",
+        "console": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\41c8b437\\console.json",
+        "network": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\41c8b437\\network.json"
+      },
+      "meta": {
+        "title": "Playability/Value Test (Desktop / D=0.40)",
+        "viewport": {
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "analysis": {
+        "replay_verdict": "fail",
+        "reproducible": true,
+        "score": 1.0,
+        "replay_artifacts": {
+          "screenshot": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\41c8b437_replay\\screenshot.png",
+          "dom": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\41c8b437_replay\\dom.html",
+          "console": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\41c8b437_replay\\console.json",
+          "network": "C:\\Users\\vinay\\PycharmProjects\\assignment\\backend\\..\\artifacts\\41c8b437_replay\\network.json"
+        }
+      }
+    }
+  ]
+}

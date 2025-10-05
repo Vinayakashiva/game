@@ -1,0 +1,1671 @@
+{
+  "ranked": [
+    {
+      "id": "b5f6abf1",
+      "title": "Playability/Value Test (Desktop / D=0.97)",
+      "difficulty": 0.9727709469189703,
+      "steps": [
+        {
+          "action": "goto",
+          "params": {
+            "url": "https://play.ezygamers.com/"
+          }
+        },
+        {
+          "action": "wait_for",
+          "params": {
+            "selector": "body",
+            "timeout": 2000
+          }
+        },
+        {
+          "action": "click_if",
+          "params": {
+            "selector": ".play-btn, #start-button, button:contains('Start')"
+          }
+        },
+        {
+          "action": "check_element_change",
+          "params": {
+            "selector_to_check": ".game-input",
+            "timeout": 3000,
+            "description": "Verify game started by waiting for main input field to appear."
+          }
+        },
+        {
+          "action": "type_value",
+          "params": {
+            "selector": ".game-input",
+            "value": "95"
+          }
+        },
+        {
+          "action": "type_value",
+          "params": {
+            "selector": ".game-input",
+            "value": "11"
+          }
+        },
+        {
+          "action": "submit",
+          "params": {}
+        },
+        {
+          "action": "check_value",
+          "params": {
+            "selector": "#result-value",
+            "expected_value": "106"
+          }
+        },
+        {
+          "action": "check_selector",
+          "params": {
+            "selector": ".score, .result, #result"
+          }
+        }
+      ],
+      "context": "Target Details: The target game 'https://play.ezygamers.com/' often has input fields with class '.game-input' and the final score is usually in a div with ID 'final-score'.\nPlanning Tips: Prioritize tests that focus on user input boundary conditions (e.g., very long or very short numbers) for game testing.",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "_score": 1.0657330563963137
+    },
+    {
+      "id": "9434a683",
+      "title": "Playability/Value Test (Tablet / D=0.83)",
+      "difficulty": 0.8298440426632717,
+      "steps": [
+        {
+          "action": "goto",
+          "params": {
+            "url": "https://play.ezygamers.com/"
+          }
+        },
+        {
+          "action": "wait_for",
+          "params": {
+            "selector": "body",
+            "timeout": 2000
+          }
+        },
+        {
+          "action": "click_if",
+          "params": {
+            "selector": ".play-btn, #start-button, button:contains('Start')"
+          }
+        },
+        {
+          "action": "check_element_change",
+          "params": {
+            "selector_to_check": ".game-input",
+            "timeout": 3000,
+            "description": "Verify game started by waiting for main input field to appear."
+          }
+        },
+        {
+          "action": "type_value",
+          "params": {
+            "selector": ".game-input",
+            "value": "33"
+          }
+        },
+        {
+          "action": "submit",
+          "params": {}
+        },
+        {
+          "action": "check_value",
+          "params": {
+            "selector": "#result-value",
+            "expected_value": "33"
+          }
+        },
+        {
+          "action": "check_selector",
+          "params": {
+            "selector": ".score, .result, #result"
+          }
+        }
+      ],
+      "context": "Target Details: The target game 'https://play.ezygamers.com/' often has input fields with class '.game-input' and the final score is usually in a div with ID 'final-score'.\nPlanning Tips: Prioritize tests that focus on user input boundary conditions (e.g., very long or very short numbers) for game testing.",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "_score": 0.9063952383962146
+    },
+    {
+      "id": "c857bbe0",
+      "title": "Playability/Value Test (Tablet / D=0.84)",
+      "difficulty": 0.8391093033006995,
+      "steps": [
+        {
+          "action": "goto",
+          "params": {
+            "url": "https://play.ezygamers.com/"
+          }
+        },
+        {
+          "action": "wait_for",
+          "params": {
+            "selector": "body",
+            "timeout": 2000
+          }
+        },
+        {
+          "action": "click_if",
+          "params": {
+            "selector": ".play-btn, #start-button, button:contains('Start')"
+          }
+        },
+        {
+          "action": "check_element_change",
+          "params": {
+            "selector_to_check": ".game-input",
+            "timeout": 3000,
+            "description": "Verify game started by waiting for main input field to appear."
+          }
+        },
+        {
+          "action": "type_value",
+          "params": {
+            "selector": ".game-input",
+            "value": "3"
+          }
+        },
+        {
+          "action": "type_value",
+          "params": {
+            "selector": ".game-input",
+            "value": "95"
+          }
+        },
+        {
+          "action": "submit",
+          "params": {}
+        },
+        {
+          "action": "check_value",
+          "params": {
+            "selector": "#result-value",
+            "expected_value": "98"
+          }
+        },
+        {
+          "action": "check_selector",
+          "params": {
+            "selector": ".score, .result, #result"
+          }
+        }
+      ],
+      "context": "Target Details: The target game 'https://play.ezygamers.com/' often has input fields with class '.game-input' and the final score is usually in a div with ID 'final-score'.\nPlanning Tips: Prioritize tests that focus on user input boundary conditions (e.g., very long or very short numbers) for game testing.",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "_score": 0.8745079820436331
+    },
+    {
+      "id": "f5a801d8",
+      "title": "Playability/Value Test (Mobile / D=0.77)",
+      "difficulty": 0.7726046166229866,
+      "steps": [
+        {
+          "action": "goto",
+          "params": {
+            "url": "https://play.ezygamers.com/"
+          }
+        },
+        {
+          "action": "wait_for",
+          "params": {
+            "selector": "body",
+            "timeout": 2000
+          }
+        },
+        {
+          "action": "click_if",
+          "params": {
+            "selector": ".play-btn, #start-button, button:contains('Start')"
+          }
+        },
+        {
+          "action": "check_element_change",
+          "params": {
+            "selector_to_check": ".game-input",
+            "timeout": 3000,
+            "description": "Verify game started by waiting for main input field to appear."
+          }
+        },
+        {
+          "action": "type_value",
+          "params": {
+            "selector": ".game-input",
+            "value": "73"
+          }
+        },
+        {
+          "action": "type_value",
+          "params": {
+            "selector": ".game-input",
+            "value": "20"
+          }
+        },
+        {
+          "action": "submit",
+          "params": {}
+        },
+        {
+          "action": "check_value",
+          "params": {
+            "selector": "#result-value",
+            "expected_value": "93"
+          }
+        },
+        {
+          "action": "check_selector",
+          "params": {
+            "selector": ".score, .result, #result"
+          }
+        }
+      ],
+      "context": "Target Details: The target game 'https://play.ezygamers.com/' often has input fields with class '.game-input' and the final score is usually in a div with ID 'final-score'.\nPlanning Tips: Prioritize tests that focus on user input boundary conditions (e.g., very long or very short numbers) for game testing.",
+      "viewport": {
+        "width": 375,
+        "height": 667
+      },
+      "_score": 0.826189902343726
+    },
+    {
+      "id": "d0ceb43d",
+      "title": "Playability/Value Test (Tablet / D=0.74)",
+      "difficulty": 0.7383524768533052,
+      "steps": [
+        {
+          "action": "goto",
+          "params": {
+            "url": "https://play.ezygamers.com/"
+          }
+        },
+        {
+          "action": "wait_for",
+          "params": {
+            "selector": "body",
+            "timeout": 2000
+          }
+        },
+        {
+          "action": "click_if",
+          "params": {
+            "selector": ".play-btn, #start-button, button:contains('Start')"
+          }
+        },
+        {
+          "action": "check_element_change",
+          "params": {
+            "selector_to_check": ".game-input",
+            "timeout": 3000,
+            "description": "Verify game started by waiting for main input field to appear."
+          }
+        },
+        {
+          "action": "type_value",
+          "params": {
+            "selector": ".game-input",
+            "value": "72"
+          }
+        },
+        {
+          "action": "type_value",
+          "params": {
+            "selector": ".game-input",
+            "value": "68"
+          }
+        },
+        {
+          "action": "submit",
+          "params": {}
+        },
+        {
+          "action": "check_value",
+          "params": {
+            "selector": "#result-value",
+            "expected_value": "140"
+          }
+        },
+        {
+          "action": "check_selector",
+          "params": {
+            "selector": ".score, .result, #result"
+          }
+        }
+      ],
+      "context": "Target Details: The target game 'https://play.ezygamers.com/' often has input fields with class '.game-input' and the final score is usually in a div with ID 'final-score'.\nPlanning Tips: Prioritize tests that focus on user input boundary conditions (e.g., very long or very short numbers) for game testing.",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "_score": 0.8221661442509959
+    },
+    {
+      "id": "2e9f4a05",
+      "title": "Playability/Value Test (Desktop / D=0.70)",
+      "difficulty": 0.6961662822291556,
+      "steps": [
+        {
+          "action": "goto",
+          "params": {
+            "url": "https://play.ezygamers.com/"
+          }
+        },
+        {
+          "action": "wait_for",
+          "params": {
+            "selector": "body",
+            "timeout": 2000
+          }
+        },
+        {
+          "action": "click_if",
+          "params": {
+            "selector": ".play-btn, #start-button, button:contains('Start')"
+          }
+        },
+        {
+          "action": "check_element_change",
+          "params": {
+            "selector_to_check": ".game-input",
+            "timeout": 3000,
+            "description": "Verify game started by waiting for main input field to appear."
+          }
+        },
+        {
+          "action": "type_value",
+          "params": {
+            "selector": ".game-input",
+            "value": "72"
+          }
+        },
+        {
+          "action": "submit",
+          "params": {}
+        },
+        {
+          "action": "check_value",
+          "params": {
+            "selector": "#result-value",
+            "expected_value": "72"
+          }
+        },
+        {
+          "action": "check_selector",
+          "params": {
+            "selector": ".score, .result, #result"
+          }
+        }
+      ],
+      "context": "Target Details: The target game 'https://play.ezygamers.com/' often has input fields with class '.game-input' and the final score is usually in a div with ID 'final-score'.\nPlanning Tips: Prioritize tests that focus on user input boundary conditions (e.g., very long or very short numbers) for game testing.",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "_score": 0.754510119005295
+    },
+    {
+      "id": "437e1f69",
+      "title": "Playability/Value Test (Mobile / D=0.65)",
+      "difficulty": 0.6512589759889497,
+      "steps": [
+        {
+          "action": "goto",
+          "params": {
+            "url": "https://play.ezygamers.com/"
+          }
+        },
+        {
+          "action": "wait_for",
+          "params": {
+            "selector": "body",
+            "timeout": 2000
+          }
+        },
+        {
+          "action": "click_if",
+          "params": {
+            "selector": ".play-btn, #start-button, button:contains('Start')"
+          }
+        },
+        {
+          "action": "check_element_change",
+          "params": {
+            "selector_to_check": ".game-input",
+            "timeout": 3000,
+            "description": "Verify game started by waiting for main input field to appear."
+          }
+        },
+        {
+          "action": "type_value",
+          "params": {
+            "selector": ".game-input",
+            "value": "27"
+          }
+        },
+        {
+          "action": "submit",
+          "params": {}
+        },
+        {
+          "action": "check_value",
+          "params": {
+            "selector": "#result-value",
+            "expected_value": "27"
+          }
+        },
+        {
+          "action": "check_selector",
+          "params": {
+            "selector": ".score, .result, #result"
+          }
+        }
+      ],
+      "context": "Target Details: The target game 'https://play.ezygamers.com/' often has input fields with class '.game-input' and the final score is usually in a div with ID 'final-score'.\nPlanning Tips: Prioritize tests that focus on user input boundary conditions (e.g., very long or very short numbers) for game testing.",
+      "viewport": {
+        "width": 375,
+        "height": 667
+      },
+      "_score": 0.6814934957595499
+    },
+    {
+      "id": "4a86d584",
+      "title": "Playability/Value Test (Tablet / D=0.59)",
+      "difficulty": 0.591234740427277,
+      "steps": [
+        {
+          "action": "goto",
+          "params": {
+            "url": "https://play.ezygamers.com/"
+          }
+        },
+        {
+          "action": "wait_for",
+          "params": {
+            "selector": "body",
+            "timeout": 2000
+          }
+        },
+        {
+          "action": "click_if",
+          "params": {
+            "selector": ".play-btn, #start-button, button:contains('Start')"
+          }
+        },
+        {
+          "action": "check_element_change",
+          "params": {
+            "selector_to_check": ".game-input",
+            "timeout": 3000,
+            "description": "Verify game started by waiting for main input field to appear."
+          }
+        },
+        {
+          "action": "type_value",
+          "params": {
+            "selector": ".game-input",
+            "value": "47"
+          }
+        },
+        {
+          "action": "type_value",
+          "params": {
+            "selector": ".game-input",
+            "value": "24"
+          }
+        },
+        {
+          "action": "submit",
+          "params": {}
+        },
+        {
+          "action": "check_value",
+          "params": {
+            "selector": "#result-value",
+            "expected_value": "71"
+          }
+        },
+        {
+          "action": "check_selector",
+          "params": {
+            "selector": ".score, .result, #result"
+          }
+        }
+      ],
+      "context": "Target Details: The target game 'https://play.ezygamers.com/' often has input fields with class '.game-input' and the final score is usually in a div with ID 'final-score'.\nPlanning Tips: Prioritize tests that focus on user input boundary conditions (e.g., very long or very short numbers) for game testing.",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "_score": 0.6386182918330952
+    },
+    {
+      "id": "ddc34d5c",
+      "title": "Playability/Value Test (Large Desktop / D=0.44)",
+      "difficulty": 0.44411652201097196,
+      "steps": [
+        {
+          "action": "goto",
+          "params": {
+            "url": "https://play.ezygamers.com/"
+          }
+        },
+        {
+          "action": "wait_for",
+          "params": {
+            "selector": "body",
+            "timeout": 2000
+          }
+        },
+        {
+          "action": "click_if",
+          "params": {
+            "selector": ".play-btn, #start-button, button:contains('Start')"
+          }
+        },
+        {
+          "action": "check_element_change",
+          "params": {
+            "selector_to_check": ".game-input",
+            "timeout": 3000,
+            "description": "Verify game started by waiting for main input field to appear."
+          }
+        },
+        {
+          "action": "type_value",
+          "params": {
+            "selector": ".game-input",
+            "value": "70"
+          }
+        },
+        {
+          "action": "type_value",
+          "params": {
+            "selector": ".game-input",
+            "value": "1"
+          }
+        },
+        {
+          "action": "submit",
+          "params": {}
+        },
+        {
+          "action": "check_value",
+          "params": {
+            "selector": "#result-value",
+            "expected_value": "71"
+          }
+        },
+        {
+          "action": "check_selector",
+          "params": {
+            "selector": ".score, .result, #result"
+          }
+        }
+      ],
+      "context": "Target Details: The target game 'https://play.ezygamers.com/' often has input fields with class '.game-input' and the final score is usually in a div with ID 'final-score'.\nPlanning Tips: Prioritize tests that focus on user input boundary conditions (e.g., very long or very short numbers) for game testing.",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "_score": 0.5064764617319673
+    },
+    {
+      "id": "41c8b437",
+      "title": "Playability/Value Test (Desktop / D=0.40)",
+      "difficulty": 0.3993690862954675,
+      "steps": [
+        {
+          "action": "goto",
+          "params": {
+            "url": "https://play.ezygamers.com/"
+          }
+        },
+        {
+          "action": "wait_for",
+          "params": {
+            "selector": "body",
+            "timeout": 2000
+          }
+        },
+        {
+          "action": "click_if",
+          "params": {
+            "selector": ".play-btn, #start-button, button:contains('Start')"
+          }
+        },
+        {
+          "action": "check_element_change",
+          "params": {
+            "selector_to_check": ".game-input",
+            "timeout": 3000,
+            "description": "Verify game started by waiting for main input field to appear."
+          }
+        },
+        {
+          "action": "type_value",
+          "params": {
+            "selector": ".game-input",
+            "value": "74"
+          }
+        },
+        {
+          "action": "submit",
+          "params": {}
+        },
+        {
+          "action": "check_value",
+          "params": {
+            "selector": "#result-value",
+            "expected_value": "74"
+          }
+        },
+        {
+          "action": "check_selector",
+          "params": {
+            "selector": ".score, .result, #result"
+          }
+        }
+      ],
+      "context": "Target Details: The target game 'https://play.ezygamers.com/' often has input fields with class '.game-input' and the final score is usually in a div with ID 'final-score'.\nPlanning Tips: Prioritize tests that focus on user input boundary conditions (e.g., very long or very short numbers) for game testing.",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "_score": 0.4299603815757843
+    },
+    {
+      "id": "1e87af44",
+      "title": "Playability/Value Test (Mobile / D=0.37)",
+      "difficulty": 0.37017413648805075,
+      "steps": [
+        {
+          "action": "goto",
+          "params": {
+            "url": "https://play.ezygamers.com/"
+          }
+        },
+        {
+          "action": "wait_for",
+          "params": {
+            "selector": "body",
+            "timeout": 2000
+          }
+        },
+        {
+          "action": "click_if",
+          "params": {
+            "selector": ".play-btn, #start-button, button:contains('Start')"
+          }
+        },
+        {
+          "action": "check_element_change",
+          "params": {
+            "selector_to_check": ".game-input",
+            "timeout": 3000,
+            "description": "Verify game started by waiting for main input field to appear."
+          }
+        },
+        {
+          "action": "type_value",
+          "params": {
+            "selector": ".game-input",
+            "value": "28"
+          }
+        },
+        {
+          "action": "type_value",
+          "params": {
+            "selector": ".game-input",
+            "value": "61"
+          }
+        },
+        {
+          "action": "submit",
+          "params": {}
+        },
+        {
+          "action": "check_value",
+          "params": {
+            "selector": "#result-value",
+            "expected_value": "89"
+          }
+        },
+        {
+          "action": "check_selector",
+          "params": {
+            "selector": ".score, .result, #result"
+          }
+        }
+      ],
+      "context": "Target Details: The target game 'https://play.ezygamers.com/' often has input fields with class '.game-input' and the final score is usually in a div with ID 'final-score'.\nPlanning Tips: Prioritize tests that focus on user input boundary conditions (e.g., very long or very short numbers) for game testing.",
+      "viewport": {
+        "width": 375,
+        "height": 667
+      },
+      "_score": 0.40013798224700337
+    },
+    {
+      "id": "ada2c8e9",
+      "title": "Playability/Value Test (Large Desktop / D=0.38)",
+      "difficulty": 0.37583043094736246,
+      "steps": [
+        {
+          "action": "goto",
+          "params": {
+            "url": "https://play.ezygamers.com/"
+          }
+        },
+        {
+          "action": "wait_for",
+          "params": {
+            "selector": "body",
+            "timeout": 2000
+          }
+        },
+        {
+          "action": "click_if",
+          "params": {
+            "selector": ".play-btn, #start-button, button:contains('Start')"
+          }
+        },
+        {
+          "action": "check_element_change",
+          "params": {
+            "selector_to_check": ".game-input",
+            "timeout": 3000,
+            "description": "Verify game started by waiting for main input field to appear."
+          }
+        },
+        {
+          "action": "type_value",
+          "params": {
+            "selector": ".game-input",
+            "value": "97"
+          }
+        },
+        {
+          "action": "submit",
+          "params": {}
+        },
+        {
+          "action": "check_value",
+          "params": {
+            "selector": "#result-value",
+            "expected_value": "97"
+          }
+        },
+        {
+          "action": "check_selector",
+          "params": {
+            "selector": ".score, .result, #result"
+          }
+        }
+      ],
+      "context": "Target Details: The target game 'https://play.ezygamers.com/' often has input fields with class '.game-input' and the final score is usually in a div with ID 'final-score'.\nPlanning Tips: Prioritize tests that focus on user input boundary conditions (e.g., very long or very short numbers) for game testing.",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "_score": 0.39982379896637
+    },
+    {
+      "id": "115ee7de",
+      "title": "Playability/Value Test (Large Desktop / D=0.25)",
+      "difficulty": 0.25179807066201776,
+      "steps": [
+        {
+          "action": "goto",
+          "params": {
+            "url": "https://play.ezygamers.com/"
+          }
+        },
+        {
+          "action": "wait_for",
+          "params": {
+            "selector": "body",
+            "timeout": 2000
+          }
+        },
+        {
+          "action": "click_if",
+          "params": {
+            "selector": ".play-btn, #start-button, button:contains('Start')"
+          }
+        },
+        {
+          "action": "check_element_change",
+          "params": {
+            "selector_to_check": ".game-input",
+            "timeout": 3000,
+            "description": "Verify game started by waiting for main input field to appear."
+          }
+        },
+        {
+          "action": "type_value",
+          "params": {
+            "selector": ".game-input",
+            "value": "68"
+          }
+        },
+        {
+          "action": "type_value",
+          "params": {
+            "selector": ".game-input",
+            "value": "47"
+          }
+        },
+        {
+          "action": "submit",
+          "params": {}
+        },
+        {
+          "action": "check_value",
+          "params": {
+            "selector": "#result-value",
+            "expected_value": "115"
+          }
+        },
+        {
+          "action": "check_selector",
+          "params": {
+            "selector": ".score, .result, #result"
+          }
+        }
+      ],
+      "context": "Target Details: The target game 'https://play.ezygamers.com/' often has input fields with class '.game-input' and the final score is usually in a div with ID 'final-score'.\nPlanning Tips: Prioritize tests that focus on user input boundary conditions (e.g., very long or very short numbers) for game testing.",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "_score": 0.34104043453481325
+    },
+    {
+      "id": "10dbdde5",
+      "title": "Playability/Value Test (Mobile / D=0.30)",
+      "difficulty": 0.3014517072552203,
+      "steps": [
+        {
+          "action": "goto",
+          "params": {
+            "url": "https://play.ezygamers.com/"
+          }
+        },
+        {
+          "action": "wait_for",
+          "params": {
+            "selector": "body",
+            "timeout": 2000
+          }
+        },
+        {
+          "action": "click_if",
+          "params": {
+            "selector": ".play-btn, #start-button, button:contains('Start')"
+          }
+        },
+        {
+          "action": "check_element_change",
+          "params": {
+            "selector_to_check": ".game-input",
+            "timeout": 3000,
+            "description": "Verify game started by waiting for main input field to appear."
+          }
+        },
+        {
+          "action": "type_value",
+          "params": {
+            "selector": ".game-input",
+            "value": "38"
+          }
+        },
+        {
+          "action": "type_value",
+          "params": {
+            "selector": ".game-input",
+            "value": "48"
+          }
+        },
+        {
+          "action": "submit",
+          "params": {}
+        },
+        {
+          "action": "check_value",
+          "params": {
+            "selector": "#result-value",
+            "expected_value": "86"
+          }
+        },
+        {
+          "action": "check_selector",
+          "params": {
+            "selector": ".score, .result, #result"
+          }
+        }
+      ],
+      "context": "Target Details: The target game 'https://play.ezygamers.com/' often has input fields with class '.game-input' and the final score is usually in a div with ID 'final-score'.\nPlanning Tips: Prioritize tests that focus on user input boundary conditions (e.g., very long or very short numbers) for game testing.",
+      "viewport": {
+        "width": 375,
+        "height": 667
+      },
+      "_score": 0.3159407988247643
+    },
+    {
+      "id": "6d0117c3",
+      "title": "Playability/Value Test (Tablet / D=0.21)",
+      "difficulty": 0.21360357205708236,
+      "steps": [
+        {
+          "action": "goto",
+          "params": {
+            "url": "https://play.ezygamers.com/"
+          }
+        },
+        {
+          "action": "wait_for",
+          "params": {
+            "selector": "body",
+            "timeout": 2000
+          }
+        },
+        {
+          "action": "click_if",
+          "params": {
+            "selector": ".play-btn, #start-button, button:contains('Start')"
+          }
+        },
+        {
+          "action": "check_element_change",
+          "params": {
+            "selector_to_check": ".game-input",
+            "timeout": 3000,
+            "description": "Verify game started by waiting for main input field to appear."
+          }
+        },
+        {
+          "action": "type_value",
+          "params": {
+            "selector": ".game-input",
+            "value": "6"
+          }
+        },
+        {
+          "action": "submit",
+          "params": {}
+        },
+        {
+          "action": "check_value",
+          "params": {
+            "selector": "#result-value",
+            "expected_value": "6"
+          }
+        },
+        {
+          "action": "check_selector",
+          "params": {
+            "selector": ".score, .result, #result"
+          }
+        }
+      ],
+      "context": "Target Details: The target game 'https://play.ezygamers.com/' often has input fields with class '.game-input' and the final score is usually in a div with ID 'final-score'.\nPlanning Tips: Prioritize tests that focus on user input boundary conditions (e.g., very long or very short numbers) for game testing.",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "_score": 0.2577916211377924
+    },
+    {
+      "id": "fa77423f",
+      "title": "Playability/Value Test (Large Desktop / D=0.21)",
+      "difficulty": 0.21176907582868043,
+      "steps": [
+        {
+          "action": "goto",
+          "params": {
+            "url": "https://play.ezygamers.com/"
+          }
+        },
+        {
+          "action": "wait_for",
+          "params": {
+            "selector": "body",
+            "timeout": 2000
+          }
+        },
+        {
+          "action": "click_if",
+          "params": {
+            "selector": ".play-btn, #start-button, button:contains('Start')"
+          }
+        },
+        {
+          "action": "check_element_change",
+          "params": {
+            "selector_to_check": ".game-input",
+            "timeout": 3000,
+            "description": "Verify game started by waiting for main input field to appear."
+          }
+        },
+        {
+          "action": "type_value",
+          "params": {
+            "selector": ".game-input",
+            "value": "88"
+          }
+        },
+        {
+          "action": "submit",
+          "params": {}
+        },
+        {
+          "action": "check_value",
+          "params": {
+            "selector": "#result-value",
+            "expected_value": "88"
+          }
+        },
+        {
+          "action": "check_selector",
+          "params": {
+            "selector": ".score, .result, #result"
+          }
+        }
+      ],
+      "context": "Target Details: The target game 'https://play.ezygamers.com/' often has input fields with class '.game-input' and the final score is usually in a div with ID 'final-score'.\nPlanning Tips: Prioritize tests that focus on user input boundary conditions (e.g., very long or very short numbers) for game testing.",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "_score": 0.24531688492238007
+    },
+    {
+      "id": "75df6b5f",
+      "title": "Playability/Value Test (Mobile / D=0.20)",
+      "difficulty": 0.20068611144024417,
+      "steps": [
+        {
+          "action": "goto",
+          "params": {
+            "url": "https://play.ezygamers.com/"
+          }
+        },
+        {
+          "action": "wait_for",
+          "params": {
+            "selector": "body",
+            "timeout": 2000
+          }
+        },
+        {
+          "action": "click_if",
+          "params": {
+            "selector": ".play-btn, #start-button, button:contains('Start')"
+          }
+        },
+        {
+          "action": "check_element_change",
+          "params": {
+            "selector_to_check": ".game-input",
+            "timeout": 3000,
+            "description": "Verify game started by waiting for main input field to appear."
+          }
+        },
+        {
+          "action": "type_value",
+          "params": {
+            "selector": ".game-input",
+            "value": "35"
+          }
+        },
+        {
+          "action": "type_value",
+          "params": {
+            "selector": ".game-input",
+            "value": "79"
+          }
+        },
+        {
+          "action": "submit",
+          "params": {}
+        },
+        {
+          "action": "check_value",
+          "params": {
+            "selector": "#result-value",
+            "expected_value": "114"
+          }
+        },
+        {
+          "action": "check_selector",
+          "params": {
+            "selector": ".score, .result, #result"
+          }
+        }
+      ],
+      "context": "Target Details: The target game 'https://play.ezygamers.com/' often has input fields with class '.game-input' and the final score is usually in a div with ID 'final-score'.\nPlanning Tips: Prioritize tests that focus on user input boundary conditions (e.g., very long or very short numbers) for game testing.",
+      "viewport": {
+        "width": 375,
+        "height": 667
+      },
+      "_score": 0.24153950612483926
+    },
+    {
+      "id": "3580b991",
+      "title": "Playability/Value Test (Mobile / D=0.22)",
+      "difficulty": 0.21921503265482556,
+      "steps": [
+        {
+          "action": "goto",
+          "params": {
+            "url": "https://play.ezygamers.com/"
+          }
+        },
+        {
+          "action": "wait_for",
+          "params": {
+            "selector": "body",
+            "timeout": 2000
+          }
+        },
+        {
+          "action": "click_if",
+          "params": {
+            "selector": ".play-btn, #start-button, button:contains('Start')"
+          }
+        },
+        {
+          "action": "check_element_change",
+          "params": {
+            "selector_to_check": ".game-input",
+            "timeout": 3000,
+            "description": "Verify game started by waiting for main input field to appear."
+          }
+        },
+        {
+          "action": "type_value",
+          "params": {
+            "selector": ".game-input",
+            "value": "86"
+          }
+        },
+        {
+          "action": "submit",
+          "params": {}
+        },
+        {
+          "action": "check_value",
+          "params": {
+            "selector": "#result-value",
+            "expected_value": "86"
+          }
+        },
+        {
+          "action": "check_selector",
+          "params": {
+            "selector": ".score, .result, #result"
+          }
+        }
+      ],
+      "context": "Target Details: The target game 'https://play.ezygamers.com/' often has input fields with class '.game-input' and the final score is usually in a div with ID 'final-score'.\nPlanning Tips: Prioritize tests that focus on user input boundary conditions (e.g., very long or very short numbers) for game testing.",
+      "viewport": {
+        "width": 375,
+        "height": 667
+      },
+      "_score": 0.2283348789565875
+    },
+    {
+      "id": "e6e65b20",
+      "title": "Playability/Value Test (Mobile / D=0.18)",
+      "difficulty": 0.18260662356731294,
+      "steps": [
+        {
+          "action": "goto",
+          "params": {
+            "url": "https://play.ezygamers.com/"
+          }
+        },
+        {
+          "action": "wait_for",
+          "params": {
+            "selector": "body",
+            "timeout": 2000
+          }
+        },
+        {
+          "action": "click_if",
+          "params": {
+            "selector": ".play-btn, #start-button, button:contains('Start')"
+          }
+        },
+        {
+          "action": "check_element_change",
+          "params": {
+            "selector_to_check": ".game-input",
+            "timeout": 3000,
+            "description": "Verify game started by waiting for main input field to appear."
+          }
+        },
+        {
+          "action": "type_value",
+          "params": {
+            "selector": ".game-input",
+            "value": "4"
+          }
+        },
+        {
+          "action": "type_value",
+          "params": {
+            "selector": ".game-input",
+            "value": "60"
+          }
+        },
+        {
+          "action": "submit",
+          "params": {}
+        },
+        {
+          "action": "check_value",
+          "params": {
+            "selector": "#result-value",
+            "expected_value": "64"
+          }
+        },
+        {
+          "action": "check_selector",
+          "params": {
+            "selector": ".score, .result, #result"
+          }
+        }
+      ],
+      "context": "Target Details: The target game 'https://play.ezygamers.com/' often has input fields with class '.game-input' and the final score is usually in a div with ID 'final-score'.\nPlanning Tips: Prioritize tests that focus on user input boundary conditions (e.g., very long or very short numbers) for game testing.",
+      "viewport": {
+        "width": 375,
+        "height": 667
+      },
+      "_score": 0.19152279912203668
+    },
+    {
+      "id": "72c44b79",
+      "title": "Deterministic open-and-check (Default Desktop)",
+      "difficulty": 0.1,
+      "steps": [
+        {
+          "action": "goto",
+          "params": {
+            "url": "https://play.ezygamers.com/"
+          }
+        },
+        {
+          "action": "wait_for",
+          "params": {
+            "selector": "body",
+            "timeout": 2000
+          }
+        },
+        {
+          "action": "check_selector",
+          "params": {
+            "selector": "body"
+          }
+        }
+      ],
+      "context": "",
+      "viewport": {
+        "name": "Desktop",
+        "width": 1280,
+        "height": 720
+      },
+      "_score": 0.16840791648714212
+    },
+    {
+      "id": "164180ee",
+      "title": "Playability/Value Test (Tablet / D=0.07)",
+      "difficulty": 0.0734209688485763,
+      "steps": [
+        {
+          "action": "goto",
+          "params": {
+            "url": "https://play.ezygamers.com/"
+          }
+        },
+        {
+          "action": "wait_for",
+          "params": {
+            "selector": "body",
+            "timeout": 2000
+          }
+        },
+        {
+          "action": "click_if",
+          "params": {
+            "selector": ".play-btn, #start-button, button:contains('Start')"
+          }
+        },
+        {
+          "action": "check_element_change",
+          "params": {
+            "selector_to_check": ".game-input",
+            "timeout": 3000,
+            "description": "Verify game started by waiting for main input field to appear."
+          }
+        },
+        {
+          "action": "type_value",
+          "params": {
+            "selector": ".game-input",
+            "value": "97"
+          }
+        },
+        {
+          "action": "submit",
+          "params": {}
+        },
+        {
+          "action": "check_value",
+          "params": {
+            "selector": "#result-value",
+            "expected_value": "97"
+          }
+        },
+        {
+          "action": "check_selector",
+          "params": {
+            "selector": ".score, .result, #result"
+          }
+        }
+      ],
+      "context": "Target Details: The target game 'https://play.ezygamers.com/' often has input fields with class '.game-input' and the final score is usually in a div with ID 'final-score'.\nPlanning Tips: Prioritize tests that focus on user input boundary conditions (e.g., very long or very short numbers) for game testing.",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "_score": 0.15559925254220136
+    },
+    {
+      "id": "36538889",
+      "title": "Playability/Value Test (Large Desktop / D=0.05)",
+      "difficulty": 0.051130984444544225,
+      "steps": [
+        {
+          "action": "goto",
+          "params": {
+            "url": "https://play.ezygamers.com/"
+          }
+        },
+        {
+          "action": "wait_for",
+          "params": {
+            "selector": "body",
+            "timeout": 2000
+          }
+        },
+        {
+          "action": "click_if",
+          "params": {
+            "selector": ".play-btn, #start-button, button:contains('Start')"
+          }
+        },
+        {
+          "action": "check_element_change",
+          "params": {
+            "selector_to_check": ".game-input",
+            "timeout": 3000,
+            "description": "Verify game started by waiting for main input field to appear."
+          }
+        },
+        {
+          "action": "type_value",
+          "params": {
+            "selector": ".game-input",
+            "value": "87"
+          }
+        },
+        {
+          "action": "type_value",
+          "params": {
+            "selector": ".game-input",
+            "value": "58"
+          }
+        },
+        {
+          "action": "submit",
+          "params": {}
+        },
+        {
+          "action": "check_value",
+          "params": {
+            "selector": "#result-value",
+            "expected_value": "145"
+          }
+        },
+        {
+          "action": "check_selector",
+          "params": {
+            "selector": ".score, .result, #result"
+          }
+        }
+      ],
+      "context": "Target Details: The target game 'https://play.ezygamers.com/' often has input fields with class '.game-input' and the final score is usually in a div with ID 'final-score'.\nPlanning Tips: Prioritize tests that focus on user input boundary conditions (e.g., very long or very short numbers) for game testing.",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "_score": 0.14969130730587726
+    },
+    {
+      "id": "05fade3c",
+      "title": "Playability/Value Test (Desktop / D=0.04)",
+      "difficulty": 0.04062136593369259,
+      "steps": [
+        {
+          "action": "goto",
+          "params": {
+            "url": "https://play.ezygamers.com/"
+          }
+        },
+        {
+          "action": "wait_for",
+          "params": {
+            "selector": "body",
+            "timeout": 2000
+          }
+        },
+        {
+          "action": "click_if",
+          "params": {
+            "selector": ".play-btn, #start-button, button:contains('Start')"
+          }
+        },
+        {
+          "action": "check_element_change",
+          "params": {
+            "selector_to_check": ".game-input",
+            "timeout": 3000,
+            "description": "Verify game started by waiting for main input field to appear."
+          }
+        },
+        {
+          "action": "type_value",
+          "params": {
+            "selector": ".game-input",
+            "value": "23"
+          }
+        },
+        {
+          "action": "type_value",
+          "params": {
+            "selector": ".game-input",
+            "value": "78"
+          }
+        },
+        {
+          "action": "submit",
+          "params": {}
+        },
+        {
+          "action": "check_value",
+          "params": {
+            "selector": "#result-value",
+            "expected_value": "101"
+          }
+        },
+        {
+          "action": "check_selector",
+          "params": {
+            "selector": ".score, .result, #result"
+          }
+        }
+      ],
+      "context": "Target Details: The target game 'https://play.ezygamers.com/' often has input fields with class '.game-input' and the final score is usually in a div with ID 'final-score'.\nPlanning Tips: Prioritize tests that focus on user input boundary conditions (e.g., very long or very short numbers) for game testing.",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "_score": 0.13624678923122407
+    },
+    {
+      "id": "da368a18",
+      "title": "Playability/Value Test (Large Desktop / D=0.04)",
+      "difficulty": 0.037211812591522286,
+      "steps": [
+        {
+          "action": "goto",
+          "params": {
+            "url": "https://play.ezygamers.com/"
+          }
+        },
+        {
+          "action": "wait_for",
+          "params": {
+            "selector": "body",
+            "timeout": 2000
+          }
+        },
+        {
+          "action": "click_if",
+          "params": {
+            "selector": ".play-btn, #start-button, button:contains('Start')"
+          }
+        },
+        {
+          "action": "check_element_change",
+          "params": {
+            "selector_to_check": ".game-input",
+            "timeout": 3000,
+            "description": "Verify game started by waiting for main input field to appear."
+          }
+        },
+        {
+          "action": "type_value",
+          "params": {
+            "selector": ".game-input",
+            "value": "80"
+          }
+        },
+        {
+          "action": "submit",
+          "params": {}
+        },
+        {
+          "action": "check_value",
+          "params": {
+            "selector": "#result-value",
+            "expected_value": "80"
+          }
+        },
+        {
+          "action": "check_selector",
+          "params": {
+            "selector": ".score, .result, #result"
+          }
+        }
+      ],
+      "context": "Target Details: The target game 'https://play.ezygamers.com/' often has input fields with class '.game-input' and the final score is usually in a div with ID 'final-score'.\nPlanning Tips: Prioritize tests that focus on user input boundary conditions (e.g., very long or very short numbers) for game testing.",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "_score": 0.05799839170151712
+    },
+    {
+      "id": "a85a5756",
+      "title": "Playability/Value Test (Desktop / D=0.01)",
+      "difficulty": 0.007506700285783707,
+      "steps": [
+        {
+          "action": "goto",
+          "params": {
+            "url": "https://play.ezygamers.com/"
+          }
+        },
+        {
+          "action": "wait_for",
+          "params": {
+            "selector": "body",
+            "timeout": 2000
+          }
+        },
+        {
+          "action": "click_if",
+          "params": {
+            "selector": ".play-btn, #start-button, button:contains('Start')"
+          }
+        },
+        {
+          "action": "check_element_change",
+          "params": {
+            "selector_to_check": ".game-input",
+            "timeout": 3000,
+            "description": "Verify game started by waiting for main input field to appear."
+          }
+        },
+        {
+          "action": "type_value",
+          "params": {
+            "selector": ".game-input",
+            "value": "36"
+          }
+        },
+        {
+          "action": "type_value",
+          "params": {
+            "selector": ".game-input",
+            "value": "12"
+          }
+        },
+        {
+          "action": "submit",
+          "params": {}
+        },
+        {
+          "action": "check_value",
+          "params": {
+            "selector": "#result-value",
+            "expected_value": "48"
+          }
+        },
+        {
+          "action": "check_selector",
+          "params": {
+            "selector": ".score, .result, #result"
+          }
+        }
+      ],
+      "context": "Target Details: The target game 'https://play.ezygamers.com/' often has input fields with class '.game-input' and the final score is usually in a div with ID 'final-score'.\nPlanning Tips: Prioritize tests that focus on user input boundary conditions (e.g., very long or very short numbers) for game testing.",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "_score": 0.039800887310368994
+    }
+  ]
+}
