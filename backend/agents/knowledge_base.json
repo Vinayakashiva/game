@@ -1,0 +1,5 @@
+{
+  "common_bugs": "If a game uses WebGL, check for context loss on tab switch. Common game breaking bugs involve rapid input sequences. The 'start' button often has the ID '#game-start'.",
+  "target_url_details": "The target game 'https://play.ezygamers.com/' often has input fields with class '.game-input' and the final score is usually in a div with ID 'final-score'.",
+  "optimization_tips": "Prioritize tests that focus on user input boundary conditions (e.g., very long or very short numbers) for game testing."
+}
